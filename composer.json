@@ -1,0 +1,20 @@
+{
+    "name": "cleverage/php-orchestrator-bundle",
+    "description": "Symfony2 Bundle for CleverAge/Orchestrator",
+    "keywords": ["php", "symfony2", "bundle", "ticket", "source", "gitlab", "trac"],
+    "homepage": "https://github.com/cleverage/php-orchestrator-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Vilpoix"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "CleverAge\\Bundle\\Orchestrator": "src/" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "cleverage/php-orchestrator": "dev-master",
+         "symfony/framework-bundle": "~2.1"
+    }
+}
